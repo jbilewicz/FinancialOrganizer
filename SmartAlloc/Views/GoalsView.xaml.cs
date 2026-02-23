@@ -114,8 +114,8 @@ public partial class GoalsView : UserControl
         var data = new DataObject("GoalItem", border.DataContext);
         DragDrop.DoDragDrop(border, data, DragDropEffects.Move);
 
-        border.Opacity         = 1.0;
-        border.RenderTransform = Transform.Identity;
+        border.Opacity = 1.0;
+        border.ClearValue(UIElement.RenderTransformProperty);
         RemoveHighlight();
         RemoveAdorner();
         _isDragging = false;
