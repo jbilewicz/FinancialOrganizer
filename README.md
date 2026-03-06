@@ -11,19 +11,19 @@ A personal finance management desktop application built with WPF and .NET 9.
 
 ## Key Features
 
-- **Dashboard** — spending overview with interactive pie chart (localized category names), recent transactions, and quick stats
-- **Transactions** — add, edit, delete income/expense entries with category tagging and notes
-- **Budgets** — monthly budget limits per category with progress tracking
-- **Goals** — savings goal tracking with month-by-month view mode; year navigation hidden in month view
-- **Statistics** — visual spending breakdowns by category and time period
-- **Recurring Transactions** — automatic entries on a defined schedule
-- **Currency Converter** — live exchange rates via API
-- **Reports** — PDF export via QuestPDF
-- **Multi-language** — 11 languages (EN, PL, DE, FR, ES, IT, PT, NL, RU, UK, JA); all UI text translated including category names
-- **Themes** — light and dark mode
-- **Tray mode** — close button shows a dialog: minimize to system tray (app runs in background) or exit completely; double-click tray icon to restore; all tray text is localized
-- **Reminders** — scheduled balloon notifications via system tray
-- **Secure local DB** — SQLite encrypted with SQLCipher; database stored in `%AppData%\SmartAlloc\`
+- **Dashboard** - spending overview with interactive pie chart (localized category names), recent transactions, and quick stats
+- **Transactions** - add, edit, delete income/expense entries with category tagging and notes
+- **Budgets** - monthly budget limits per category with progress tracking
+- **Goals** - savings goal tracking with month-by-month view mode; year navigation hidden in month view
+- **Statistics** - visual spending breakdowns by category and time period
+- **Recurring Transactions** - automatic entries on a defined schedule
+- **Currency Converter** - live exchange rates via API
+- **Reports** - PDF export via QuestPDF
+- **Multi-language** - 11 languages (EN, PL, DE, FR, ES, IT, PT, NL, RU, UK, JA); all UI text translated including category names
+- **Themes** - light and dark mode
+- **Tray mode** - close button shows a dialog: minimize to system tray (app runs in background) or exit completely; double-click tray icon to restore; all tray text is localized
+- **Reminders** - scheduled balloon notifications via system tray
+- **Secure local DB** - SQLite encrypted with SQLCipher; database stored in `%AppData%\SmartAlloc\`
 
 ---
 
@@ -100,7 +100,7 @@ The resulting `SmartAlloc.exe` in `publish/` can be distributed without requirin
 
 - All data is stored **locally** in `%AppData%\SmartAlloc\`
 - The SQLite database is encrypted with SQLCipher
-- The encryption key is stored in `%AppData%\SmartAlloc\db.key` — never in the repository
+- The encryption key is stored in `%AppData%\SmartAlloc\db.key` - never in the repository
 - No data is sent to any server except optional live currency rate lookups
 
 
